@@ -35,7 +35,7 @@ const API_BASE = 'http://127.0.0.1:8000'
 const apiState = ref<ApiState>('checking')
 const historyRecords = ref<any[]>([])
 // 当前选中的历史记录
-const selectedHistoryRecord = ref(null)
+const selectedHistoryRecord = ref<any>(null)
 
 // 历史记录详情加载状态
 const historyDetailLoading = ref(false)
