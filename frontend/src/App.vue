@@ -30,7 +30,7 @@ const utilizationAdvice: Record<string, string> = {
 type ApiState = 'checking' | 'online' | 'offline'
 type Page = 'home' | 'screening' | 'report' | 'pattern' | 'history' | 'history-detail'
 
-const API_BASE = 'http://127.0.0.1:8000'
+const API_BASE = 'https://pattern-guard-api-345468-7-1528247260.sh.run.tcloudbase.com'
 
 const apiState = ref<ApiState>('checking')
 const historyRecords = ref<any[]>([])
